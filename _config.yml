@@ -1,21 +1,29 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-title: Your awesome title
-email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
+title:                  His Royal Redness
+email:                  hisroyalredness@gmail.com
+description: > 
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
-twitter_username: jekyllrb
-github_username:  jekyll
+baseurl:                ""
+url:                    http://hisroyalredness.com
+title_description:      My little piece of web turf.
+#title_image:           "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm" 
+post_limit:             5
+
+
+# Social usernames/URLs
+twitter_username:       HisRoyalRedness
+github_username:        HisRoyalRedness
+#linkedin_link:         http://nz.linkedin.com/in/kfletcher/
+google_plus_link:       https://plus.google.com/u/0/117142223002091818996/
+#stackoverflow_link:    http://stackoverflow.com/users/544196/his-royal-redness/
+#google_analytics:      UA-76004360-1
+#disqus_account:        fletcherorgnz
+github_repository:      https://github.com/HisRoyalRedness/HisRoyalRedness.github.io
+addthis_id:             ra-5703571c5aab0aaf
+
 
 # Build settings
-markdown: kramdown
+markdown:               kramdown
+highlighting:           rouge
