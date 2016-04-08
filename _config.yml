@@ -8,7 +8,7 @@ description: >
 baseurl:                ""
 url:                    http://hisroyalredness.com
 title_description:      My little piece of web turf.
-#title_image:           "http://www.gravatar.com/avatar/00000000000000000000000000000000?s=500&d=mm" 
+title_image:           http://hisroyalredness.com/image/hrr_square.png
 post_limit:             5
 
 
