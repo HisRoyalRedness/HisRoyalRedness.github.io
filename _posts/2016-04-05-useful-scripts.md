@@ -45,8 +45,8 @@ Initialise the Hash Table
 
 ```powershell
 $array_name = @{key1 = item1; key2 = item2;...} 
-$array_name = [Ordered]@{key1 = item1; key2 = item2;...}
 # Keep fields ordered with [Ordered]
+$array_name = [Ordered]@{key1 = item1; key2 = item2;...}
 ```
 
 Add items to a Hash Table
