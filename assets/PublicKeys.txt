@@ -1,3 +1,9 @@
+Keith Fletcher's Public Keys
+
+Current key
+                 
+Key fingerprint: 5D71 582C DCBF 8105 BD41  94E9 0F0D 6084 0F97 A170
+
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v2
 

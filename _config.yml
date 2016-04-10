@@ -23,6 +23,10 @@ google_plus_link:       https://plus.google.com/u/0/117142223002091818996/
 github_repository:      https://github.com/HisRoyalRedness/HisRoyalRedness.github.io
 addthis_id:             ra-5703571c5aab0aaf
 
+# GPG
+fingerprint:            5D71 582C DCBF 8105 BD41  94E9 0F0D 6084 0F97 A170
+long_id:                0F0D60840F97A170
+short_id:               0F97A170
 
 # Build settings
 markdown:               kramdown
