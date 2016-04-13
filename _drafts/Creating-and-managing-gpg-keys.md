@@ -1,3 +1,16 @@
+---
+layout:     post
+title:      Starting up with GnuPG
+date:       2016-04-13 21:56 +1300
+summary:    blah blah blah
+categories: gpg
+thumbnail:  cogs
+tags:       gpg encryption
+---
+
+* TOC
+{:toc}
+
 # Starting up with GnuPG
 
 ## Planning
@@ -90,11 +103,9 @@ dates after the fact. It's also a good idea to create a calendar entry to remind
           <n>y = key expires in n years
     Key is valid for? (0) 1y
 
-Add a uid (name and e-mail):
-
 Enter your [name and e-mail<sub>7</sub>][7]. You'll get the option to add more addresses later if you wish to. Leave the 
-[comment<sub>6</sub>][6] field empty. In fact, [that link is important<sub>6</sub>][6]. It has a lot to
-say about how you identify yourself to others. Read it.
+[comment<sub>6</sub>][6] field empty. In fact, [that last link is important<sub>6</sub>][6]. It has a lot to
+say about how you identify yourself to others. It's worth reading.
 
     GnuPG needs to construct a user ID to identify your key.
     
@@ -209,3 +220,4 @@ This is a summary of the specific resources that I've referenced in my post to j
  3. [https://spin.atomicobject.com/2013/11/24/secure-gpg-keys-guide/][3]
  4. [https://www.debian-administration.org/users/dkg/weblog/97][4] 
  
+ {{ page.output }}
