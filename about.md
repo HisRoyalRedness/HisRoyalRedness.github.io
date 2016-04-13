@@ -19,6 +19,6 @@ Public keys:
 
 * Current key id: {{ site.short_id }} 
 * Finger print: {{ site.fingerprint }}
-* [pgp.net.nz](http://pgp.net.nz:11371/pks/lookup?op=get&search=0x{{ site.long_id }}) 
+* [sks-keyservers.net](https://sks-keyservers.net/pks/lookup?op=get&search=0x{{ site.long_id }}) 
 * [Local](/assets/PublicKeys.txt)
 
