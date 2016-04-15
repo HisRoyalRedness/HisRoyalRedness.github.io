@@ -26,12 +26,32 @@ and especially once you've published your keys, it could be troublesome to chang
 * and of course the [The GNU Privacy Guard Manual][12]
 
 The rest of the post is primarily a record of the decisions that I've taken, mostly
-for my own benefit, but it could possibly help you get going too. Please be advised
+for my own benefit, but it could possibly help you get going too. 
+
+## Disclaimer 
+
+Please be advised
 that I make absolutely no guarantee that this is best practise, or even good practise
 for that matter. I'm not an expert. Look elsewhere if you want something more 
-authoritative (perhaps start with the links above). If you follow this advice and get 
-hacked, lose data, your house burns down and your spouse runs off with the neighbour: 
-NOT MY PROBLEM!
+authoritative (perhaps start with the links above). I take no responsibility whatsoever
+for anything that happens as a result of you having read this post.
+
+# Set algorithm preferences
+
+It's probably wise to make sure that your environment is set up optimally before You
+begin creating keys, as some of this stuff is harder to change later. You'll want to
+specify your preferred algorithms and hashes, in decending priority, for both key 
+signing and encryption. You can set the default preferences in ```gpg.conf```. I've 
+taken the [complete file][9] from Jacob Applebaum's [duraconf][13] collection.
+
+More information can be found at [dkg's Debian weblog][14], at the [KDE UserBase wiki][15],
+the fantastic [RiseUp OpenPGP Best practices][16] article, and a [StackExchange][17] answer.
+
+If you've already created a key and would like to set the preferences on that key, the
+more common preference setting seems to be this one: 
+```
+setpref SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+```
 
 # Creating the primary key
 
@@ -139,30 +159,11 @@ If everything went OK, you should get something similar to this
           Key fingerprint = D067 6D8E 5AB5 B780 E748  E7D8 C9FA FEAA 3714 877A
     uid       [ultimate] Rick Roller <rick@roll.com>
 
+
+
+
+
 Create one subkey each for sign, encrypt and authenticate
-
-# Set algorithm preferences
-
-https://debian-administration.org/users/dkg/weblog/48
-personal-digest-preferences SHA256
-cert-digest-algo SHA256
-default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
-
-https://userbase.kde.org/Concepts/OpenPGP_Getting_Started#Algorithm_preferences
-personal-cipher-preferences AES256,AES192,AES,CAST5,3DES
-personal-digest-preferences SHA512,SHA384,SHA256,SHA224,RIPEMD160,SHA1
-cert-digest-algo SHA512
-default-preference-list AES256,AES192,AES,CAST5,3DES,SHA512,SHA384,SHA256,SHA224,RIPEMD160,SHA1,ZLIB,BZIP2,ZIP
-
-https://help.riseup.net/en/security/message-security/openpgp/best-practices#stated-digest-algorithm-preferences-must-include-at-least-one-member-of-the-sha-2-family-at-a-higher-priority-than-both-md5-and-sha1
-default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
-
-
-http://security.stackexchange.com/questions/82216/how-to-change-default-cipher-in-gnupg-on-both-linux-and-windows#82219
-
-
-https://github.com/ioerror/duraconf/blob/master/configs/gnupg/gpg.conf
-
 
 # Creating the subkeys
 
@@ -185,8 +186,9 @@ that you selected. I'll use this fake address consistently from here on.
 ## Add a photo
 
 There is some disagreement about whether this is a good idea or not. Personally, I like it,
-especially if the photo matches up with one used on a social media account. Don't depend on
-the photo when certifying other though.
+especially if the photo matches up with one used on one or more social media accounts. Of
+course it shouldn't be the only form of identity, but I guess it can compliment official
+goverment-issued, photo-bearing identity documents.
 
     Pick an image to use for your photo ID.  The image must be a JPEG file.
     Remember that the image is stored within your public key.  If you use a
@@ -204,8 +206,6 @@ the photo when certifying other though.
                          trust: ultimate      validity: ultimate
     [ultimate] (1). Rick Roller <rick@roll.com>
     [ unknown] (2)  [jpeg image of size 5986]
-
-setpref SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
 
 # Links
 
@@ -229,10 +229,15 @@ This is a summary of the specific resources that I've referenced in my post to j
 [6]:https://www.debian-administration.org/users/dkg/weblog/97
 [7]:https://userbase.kde.org/Concepts/OpenPGP_Getting_Started#User_IDs
 [8]:https://userbase.kde.org/Concepts/OpenPGP_Getting_Started#Passphrase.2C_safe_storage.2C_and_backup
-
+[9]:https://raw.githubusercontent.com/ioerror/duraconf/master/configs/gnupg/gpg.conf
 [10]:https://userbase.kde.org/Concepts/OpenPGP_For_Beginners
 [11]:https://userbase.kde.org/Concepts/OpenPGP_Getting_Started
 [12]:https://www.gnupg.org/documentation/manuals/gnupg/
+[13]:https://github.com/ioerror/duraconf
+[14]:https://debian-administration.org/users/dkg/weblog/48
+[15]:https://userbase.kde.org/Concepts/OpenPGP_Getting_Started#Algorithm_preferences
+[16]:https://help.riseup.net/en/security/message-security/openpgp/best-practices#stated-digest-algorithm-preferences-must-include-at-least-one-member-of-the-sha-2-family-at-a-higher-priority-than-both-md5-and-sha1
+[17]:http://security.stackexchange.com/questions/82216/how-to-change-default-cipher-in-gnupg-on-both-linux-and-windows#82219
 
 
  
@@ -241,4 +246,3 @@ This is a summary of the specific resources that I've referenced in my post to j
  3. [https://spin.atomicobject.com/2013/11/24/secure-gpg-keys-guide/][3]
  4. [https://www.debian-administration.org/users/dkg/weblog/97][4] 
  
- {{ page.output }}
