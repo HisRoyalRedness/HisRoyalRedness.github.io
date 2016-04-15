@@ -11,9 +11,7 @@ tags:       gpg encryption
 * TOC
 {:toc}
 
-# Starting up with GnuPG
-
-## Planning
+# Planning
 
 Before jumping into the key creation, you should really decide why it is that you want 
 a key, what your intended uses for it are and how secure you wish to be. Security and
@@ -35,7 +33,7 @@ authoritative (perhaps start with the links above). If you follow this advice an
 hacked, lose data, your house burns down and your spouse runs off with the neighbour: 
 NOT MY PROBLEM!
 
-## Creating the primary key
+# Creating the primary key
 
 It's recommened (just about everywhere, I'm not going to bother to reference this) that
 you generate and use your primary key as securely as possible. Think along the lines of a
@@ -143,7 +141,7 @@ If everything went OK, you should get something similar to this
 
 Create one subkey each for sign, encrypt and authenticate
 
-## Set algorithm preferences
+# Set algorithm preferences
 
 https://debian-administration.org/users/dkg/weblog/48
 personal-digest-preferences SHA256
@@ -166,7 +164,7 @@ http://security.stackexchange.com/questions/82216/how-to-change-default-cipher-i
 https://github.com/ioerror/duraconf/blob/master/configs/gnupg/gpg.conf
 
 
-## Creating the subkeys
+# Creating the subkeys
 
 From here onwards, you'll be editing the primary key you just created. You'll get into *edit mode*
 by entering ```gpg --expert --edit-key rick@roll.com```, obviously substituting in the email address
@@ -184,7 +182,7 @@ that you selected. I'll use this fake address consistently from here on.
     
 
 
-### Add a photo
+## Add a photo
 
 There is some disagreement about whether this is a good idea or not. Personally, I like it,
 especially if the photo matches up with one used on a social media account. Don't depend on
