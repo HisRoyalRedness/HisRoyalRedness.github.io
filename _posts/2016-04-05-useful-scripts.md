@@ -8,6 +8,9 @@ thumbnail:  cogs
 tags:       powershell script
 ---
 
+* TOC
+{:toc}
+
 # Signing powershell scripts
 
 ##### Extracted from an blog post by [Scott Hanselman][1]
@@ -37,7 +40,23 @@ Set-AuthenticodeSignature c:\foo.ps1 @(Get-ChildItem cert:\CurrentUser\My -codes
 ```
 
 
-# Hash tables
+# Collections
+
+# Arrays
+
+Create a byte array, with elements initialise to 0
+
+```
+$byte = New-Object Byte[] 100
+```
+ 
+Byte array with a default value other than 0
+
+```
+$byte = [Byte[]] (,0xFF * 100)
+```
+
+## Hash tables
 
 ##### Content shamelessly stolen from [SS64][2]
 
@@ -79,7 +98,7 @@ Retrieve items from a Hash Table by key
 $usa_states.'NY'
 ```
 
-# Miscellaneous
+# Regular expressions
 
 Return the value of a regular expression match
 
@@ -87,6 +106,8 @@ Return the value of a regular expression match
 get-content SomeTarget.txt | ([regex]"<pattern_text>").Matches($_) | 
     % { $_.Value }
 ```
+
+# Pipeline
 
 Create a custom object from a pipeline
 
@@ -98,12 +119,15 @@ get-childitem SomeFolder |
     % { new-object psobject -property ([Ordered]@{ Col1 = 1; Col2 = 2 }) }
 ```
 
+# CSV
+
 Suppress type info from CSV files
 
 ```powershell
 $SomeData | export-csv target.csv -NoTypeInformation
 ```
 
+# Script errors
 
 Stop on the first error
 
