@@ -143,6 +143,29 @@ If everything went OK, you should get something similar to this
 
 Create one subkey each for sign, encrypt and authenticate
 
+## Set algorithm preferences
+
+https://debian-administration.org/users/dkg/weblog/48
+personal-digest-preferences SHA256
+cert-digest-algo SHA256
+default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+
+https://userbase.kde.org/Concepts/OpenPGP_Getting_Started#Algorithm_preferences
+personal-cipher-preferences AES256,AES192,AES,CAST5,3DES
+personal-digest-preferences SHA512,SHA384,SHA256,SHA224,RIPEMD160,SHA1
+cert-digest-algo SHA512
+default-preference-list AES256,AES192,AES,CAST5,3DES,SHA512,SHA384,SHA256,SHA224,RIPEMD160,SHA1,ZLIB,BZIP2,ZIP
+
+https://help.riseup.net/en/security/message-security/openpgp/best-practices#stated-digest-algorithm-preferences-must-include-at-least-one-member-of-the-sha-2-family-at-a-higher-priority-than-both-md5-and-sha1
+default-preference-list SHA512 SHA384 SHA256 SHA224 AES256 AES192 AES CAST5 ZLIB BZIP2 ZIP Uncompressed
+
+
+http://security.stackexchange.com/questions/82216/how-to-change-default-cipher-in-gnupg-on-both-linux-and-windows#82219
+
+
+https://github.com/ioerror/duraconf/blob/master/configs/gnupg/gpg.conf
+
+
 ## Creating the subkeys
 
 From here onwards, you'll be editing the primary key you just created. You'll get into *edit mode*
