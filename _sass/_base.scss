@@ -69,6 +69,13 @@ ul, ol {
     margin-left: $spacing-unit;
 }
 
+#markdown-toc {
+  float: right; 
+  background-color: #f0f0ff;
+  padding: 10px 10px 10px 25px;
+}
+
+
 li {
     > ul,
     > ol {

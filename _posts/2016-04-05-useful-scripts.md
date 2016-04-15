@@ -8,6 +8,10 @@ thumbnail:  cogs
 tags:       powershell script
 ---
 
+* TOC
+{:toc}
+
+
 # Signing powershell scripts
 
 ##### Extracted from an blog post by [Scott Hanselman][1]
