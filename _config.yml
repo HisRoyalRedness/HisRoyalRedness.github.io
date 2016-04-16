@@ -2,9 +2,10 @@
 title:                  His Royal Redness
 email:                  hisroyalredness@gmail.com
 description: >
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  This is the personal website of Keith Fletcher, aka HisRoyalRedness.
+  I use it as my scribble pad, and it consists primariy of notes that 
+  I keep to remind myself later when memory fails. Occasionally, I'll
+  post the odd random thought or opinion.
 baseurl:                ""
 url:                    http://hisroyalredness.com
 title_description:      My little piece of web turf.
@@ -15,7 +16,7 @@ post_limit:             5
 # Social usernames/URLs
 twitter_username:       HisRoyalRedness
 github_username:        HisRoyalRedness
-#linkedin_link:         http://nz.linkedin.com/in/kfletcher/
+linkedin_username:      kfletcher
 google_plus_link:       https://plus.google.com/u/0/117142223002091818996/
 #stackoverflow_link:    http://stackoverflow.com/users/544196/his-royal-redness/
 #google_analytics:      UA-76004360-1

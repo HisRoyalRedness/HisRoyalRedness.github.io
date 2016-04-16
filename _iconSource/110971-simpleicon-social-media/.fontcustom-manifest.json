@@ -1,0 +1,640 @@
+{
+  "checksum": {
+    "previous": "0c13a62c189a9ca7d9701d99d3f2fe0ecd609e8a5d9020088f35a77f6f2349e9",
+    "current": "0c13a62c189a9ca7d9701d99d3f2fe0ecd609e8a5d9020088f35a77f6f2349e9"
+  },
+  "fonts": [
+    "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/font/Flaticon.ttf",
+    "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/font/Flaticon.svg",
+    "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/font/Flaticon.woff",
+    "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/font/Flaticon.eot"
+  ],
+  "glyphs": {
+    "app-store-apple-symbol": {
+      "codepoint": 61696,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/app-store-apple-symbol.svg"
+    },
+    "apple-logotype": {
+      "codepoint": 61697,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/apple-logotype.svg"
+    },
+    "arto-logo": {
+      "codepoint": 61698,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/arto-logo.svg"
+    },
+    "aws-logo": {
+      "codepoint": 61699,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/aws-logo.svg"
+    },
+    "baidu-paw-logo": {
+      "codepoint": 61700,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/baidu-paw-logo.svg"
+    },
+    "basecamp-logo": {
+      "codepoint": 61701,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/basecamp-logo.svg"
+    },
+    "bebo-social-network-logo": {
+      "codepoint": 61702,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/bebo-social-network-logo.svg"
+    },
+    "behance-logo": {
+      "codepoint": 61703,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/behance-logo.svg"
+    },
+    "bing-logo": {
+      "codepoint": 61704,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/bing-logo.svg"
+    },
+    "black-cloud": {
+      "codepoint": 61705,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/black-cloud.svg"
+    },
+    "blip": {
+      "codepoint": 61706,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/blip.svg"
+    },
+    "blogger-letter-logotype": {
+      "codepoint": 61707,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/blogger-letter-logotype.svg"
+    },
+    "bnter-logo": {
+      "codepoint": 61708,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/bnter-logo.svg"
+    },
+    "brightkite-logo": {
+      "codepoint": 61709,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/brightkite-logo.svg"
+    },
+    "cinch-logo-of-letter-c-with-an-oval-speech-bubble": {
+      "codepoint": 61710,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/cinch-logo-of-letter-c-with-an-oval-speech-bubble.svg"
+    },
+    "coroflot-logo": {
+      "codepoint": 61711,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/coroflot-logo.svg"
+    },
+    "creative-commons-license-symbol": {
+      "codepoint": 61712,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/creative-commons-license-symbol.svg"
+    },
+    "dailybooth-logo": {
+      "codepoint": 61713,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/dailybooth-logo.svg"
+    },
+    "delicious-logo": {
+      "codepoint": 61714,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/delicious-logo.svg"
+    },
+    "designbump-logo": {
+      "codepoint": 61715,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/designbump-logo.svg"
+    },
+    "designfloat-logo": {
+      "codepoint": 61716,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/designfloat-logo.svg"
+    },
+    "designmoo-logo": {
+      "codepoint": 61717,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/designmoo-logo.svg"
+    },
+    "deviantart": {
+      "codepoint": 61718,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/deviantart.svg"
+    },
+    "digg-logo": {
+      "codepoint": 61719,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/digg-logo.svg"
+    },
+    "digg-logo-1": {
+      "codepoint": 61720,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/digg-logo-1.svg"
+    },
+    "diigo-logo": {
+      "codepoint": 61721,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/diigo-logo.svg"
+    },
+    "dribbble-logo": {
+      "codepoint": 61722,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/dribbble-logo.svg"
+    },
+    "dropbox-logo": {
+      "codepoint": 61723,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/dropbox-logo.svg"
+    },
+    "drupal-logo": {
+      "codepoint": 61724,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/drupal-logo.svg"
+    },
+    "ebay-logo": {
+      "codepoint": 61725,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/ebay-logo.svg"
+    },
+    "ember-logo": {
+      "codepoint": 61726,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/ember-logo.svg"
+    },
+    "etsy-letter-logo": {
+      "codepoint": 61727,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/etsy-letter-logo.svg"
+    },
+    "evernote-logo": {
+      "codepoint": 61728,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/evernote-logo.svg"
+    },
+    "facebook-letter-logo": {
+      "codepoint": 61729,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/facebook-letter-logo.svg"
+    },
+    "facebook-logo": {
+      "codepoint": 61730,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/facebook-logo.svg"
+    },
+    "facebook-placeholder-for-locate-places-on-maps": {
+      "codepoint": 61731,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/facebook-placeholder-for-locate-places-on-maps.svg"
+    },
+    "factome-logo": {
+      "codepoint": 61732,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/factome-logo.svg"
+    },
+    "feedburner-logo": {
+      "codepoint": 61733,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/feedburner-logo.svg"
+    },
+    "flickr-logo-of-two-dots": {
+      "codepoint": 61734,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/flickr-logo-of-two-dots.svg"
+    },
+    "folkd-logo": {
+      "codepoint": 61735,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/folkd-logo.svg"
+    },
+    "formspring-spiral-logo": {
+      "codepoint": 61736,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/formspring-spiral-logo.svg"
+    },
+    "forrst-logo": {
+      "codepoint": 61737,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/forrst-logo.svg"
+    },
+    "foursquare-logo": {
+      "codepoint": 61738,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/foursquare-logo.svg"
+    },
+    "friendfeed-logo": {
+      "codepoint": 61739,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/friendfeed-logo.svg"
+    },
+    "gdgt-logo": {
+      "codepoint": 61740,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/gdgt-logo.svg"
+    },
+    "github-logo": {
+      "codepoint": 61741,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/github-logo.svg"
+    },
+    "github-logo-1": {
+      "codepoint": 61742,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/github-logo-1.svg"
+    },
+    "goodreads-letter-logo": {
+      "codepoint": 61743,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/goodreads-letter-logo.svg"
+    },
+    "google-buzz-logo": {
+      "codepoint": 61744,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/google-buzz-logo.svg"
+    },
+    "google-logo": {
+      "codepoint": 61745,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/google-logo.svg"
+    },
+    "google-talk-logo-of-a-speech-bubble": {
+      "codepoint": 61746,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/google-talk-logo-of-a-speech-bubble.svg"
+    },
+    "gowalla-logo": {
+      "codepoint": 61747,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/gowalla-logo.svg"
+    },
+    "gowalla-social-network-logo": {
+      "codepoint": 61748,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/gowalla-social-network-logo.svg"
+    },
+    "hacker-news-logo": {
+      "codepoint": 61749,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/hacker-news-logo.svg"
+    },
+    "heart-black-shape-for-love": {
+      "codepoint": 61750,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/heart-black-shape-for-love.svg"
+    },
+    "hi5-logo": {
+      "codepoint": 61751,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/hi5-logo.svg"
+    },
+    "hype-machine-logo": {
+      "codepoint": 61752,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/hype-machine-logo.svg"
+    },
+    "hyves-social-network-logo": {
+      "codepoint": 61753,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/hyves-social-network-logo.svg"
+    },
+    "icq-flower-logo": {
+      "codepoint": 61754,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/icq-flower-logo.svg"
+    },
+    "instapaper-logo": {
+      "codepoint": 61755,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/instapaper-logo.svg"
+    },
+    "itunes-logo-of-amusical-note-inside-a-circle": {
+      "codepoint": 61756,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/itunes-logo-of-amusical-note-inside-a-circle.svg"
+    },
+    "kik-messenger-logo": {
+      "codepoint": 61757,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/kik-messenger-logo.svg"
+    },
+    "krop-letters": {
+      "codepoint": 61758,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/krop-letters.svg"
+    },
+    "lastfm-logo": {
+      "codepoint": 61759,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/lastfm-logo.svg"
+    },
+    "letter-p-symbol": {
+      "codepoint": 61760,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/letter-p-symbol.svg"
+    },
+    "linkedin-logo": {
+      "codepoint": 61761,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/linkedin-logo.svg"
+    },
+    "linkedin-logo-1": {
+      "codepoint": 61762,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/linkedin-logo-1.svg"
+    },
+    "male": {
+      "codepoint": 61763,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/male.svg"
+    },
+    "meetup-logo": {
+      "codepoint": 61764,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/meetup-logo.svg"
+    },
+    "metacafe-logo": {
+      "codepoint": 61765,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/metacafe-logo.svg"
+    },
+    "ming-circular-dots-lines-logo": {
+      "codepoint": 61766,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/ming-circular-dots-lines-logo.svg"
+    },
+    "mister-wong-logo": {
+      "codepoint": 61767,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/mister-wong-logo.svg"
+    },
+    "mixx-dj-software-logo": {
+      "codepoint": 61768,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/mixx-dj-software-logo.svg"
+    },
+    "mixx-logo": {
+      "codepoint": 61769,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/mixx-logo.svg"
+    },
+    "mobileme-logo-of-black-cloud": {
+      "codepoint": 61770,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/mobileme-logo-of-black-cloud.svg"
+    },
+    "msn-messenger-logo": {
+      "codepoint": 61771,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/msn-messenger-logo.svg"
+    },
+    "myspace-logo": {
+      "codepoint": 61772,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/myspace-logo.svg"
+    },
+    "myspace-social-network-symbol-of-an-horizontal-line": {
+      "codepoint": 61773,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/myspace-social-network-symbol-of-an-horizontal-line.svg"
+    },
+    "newsvine-logo": {
+      "codepoint": 61774,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/newsvine-logo.svg"
+    },
+    "officialfm-logo": {
+      "codepoint": 61775,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/officialfm-logo.svg"
+    },
+    "openid-logo": {
+      "codepoint": 61776,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/openid-logo.svg"
+    },
+    "orkut-letter-logo": {
+      "codepoint": 61777,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/orkut-letter-logo.svg"
+    },
+    "pandora-letter-logo": {
+      "codepoint": 61778,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/pandora-letter-logo.svg"
+    },
+    "path-logo": {
+      "codepoint": 61779,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/path-logo.svg"
+    },
+    "paypal-logo": {
+      "codepoint": 61780,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/paypal-logo.svg"
+    },
+    "pencil-of-gross-size-outline": {
+      "codepoint": 61781,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/pencil-of-gross-size-outline.svg"
+    },
+    "photobucket-logo": {
+      "codepoint": 61782,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/photobucket-logo.svg"
+    },
+    "picasa-logo": {
+      "codepoint": 61783,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/picasa-logo.svg"
+    },
+    "picasa-logo-1": {
+      "codepoint": 61784,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/picasa-logo-1.svg"
+    },
+    "pin-black-silhouette-in-diagonal-position-pointing-down-right": {
+      "codepoint": 61785,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/pin-black-silhouette-in-diagonal-position-pointing-down-right.svg"
+    },
+    "ping-logo": {
+      "codepoint": 61786,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/ping-logo.svg"
+    },
+    "pingchat-logo": {
+      "codepoint": 61787,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/pingchat-logo.svg"
+    },
+    "playstation-logo": {
+      "codepoint": 61788,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/playstation-logo.svg"
+    },
+    "plixi-logo": {
+      "codepoint": 61789,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/plixi-logo.svg"
+    },
+    "plurk-logo": {
+      "codepoint": 61790,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/plurk-logo.svg"
+    },
+    "podcast": {
+      "codepoint": 61791,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/podcast.svg"
+    },
+    "q-letter-sign": {
+      "codepoint": 61792,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/q-letter-sign.svg"
+    },
+    "qik-logo": {
+      "codepoint": 61793,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/qik-logo.svg"
+    },
+    "quora-logo": {
+      "codepoint": 61794,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/quora-logo.svg"
+    },
+    "rdio-logo": {
+      "codepoint": 61795,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/rdio-logo.svg"
+    },
+    "readernaut-logo": {
+      "codepoint": 61796,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/readernaut-logo.svg"
+    },
+    "reddit-alien-head-logo": {
+      "codepoint": 61797,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/reddit-alien-head-logo.svg"
+    },
+    "retweet-arrows-couple-symbol": {
+      "codepoint": 61798,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/retweet-arrows-couple-symbol.svg"
+    },
+    "roboto-logo": {
+      "codepoint": 61799,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/roboto-logo.svg"
+    },
+    "rss-symbol": {
+      "codepoint": 61800,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/rss-symbol.svg"
+    },
+    "scribd-logo": {
+      "codepoint": 61801,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/scribd-logo.svg"
+    },
+    "sharethis-logo": {
+      "codepoint": 61802,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/sharethis-logo.svg"
+    },
+    "shark-fin": {
+      "codepoint": 61803,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/shark-fin.svg"
+    },
+    "simplenote-application-logo": {
+      "codepoint": 61804,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/simplenote-application-logo.svg"
+    },
+    "skype-logo": {
+      "codepoint": 61805,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/skype-logo.svg"
+    },
+    "slashdot-news-logo": {
+      "codepoint": 61806,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/slashdot-news-logo.svg"
+    },
+    "slideshare-logotype": {
+      "codepoint": 61807,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/slideshare-logotype.svg"
+    },
+    "smile": {
+      "codepoint": 61808,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/smile.svg"
+    },
+    "smugmug-logo": {
+      "codepoint": 61809,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/smugmug-logo.svg"
+    },
+    "soundcloud-logo": {
+      "codepoint": 61810,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/soundcloud-logo.svg"
+    },
+    "speech-bubble-of-gross-outline-and-circular-shape": {
+      "codepoint": 61811,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/speech-bubble-of-gross-outline-and-circular-shape.svg"
+    },
+    "spotify-logo": {
+      "codepoint": 61812,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/spotify-logo.svg"
+    },
+    "squarespace-logo": {
+      "codepoint": 61813,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/squarespace-logo.svg"
+    },
+    "squidoo-logo": {
+      "codepoint": 61814,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/squidoo-logo.svg"
+    },
+    "steam-logo": {
+      "codepoint": 61815,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/steam-logo.svg"
+    },
+    "stumbleupon-logo": {
+      "codepoint": 61816,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/stumbleupon-logo.svg"
+    },
+    "technorati-logo": {
+      "codepoint": 61817,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/technorati-logo.svg"
+    },
+    "threewordsme-logo": {
+      "codepoint": 61818,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/threewordsme-logo.svg"
+    },
+    "tribenet-logo": {
+      "codepoint": 61819,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/tribenet-logo.svg"
+    },
+    "tripit-logo": {
+      "codepoint": 61820,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/tripit-logo.svg"
+    },
+    "tumblr-letter-logo": {
+      "codepoint": 61821,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/tumblr-letter-logo.svg"
+    },
+    "twitter-letter-logo": {
+      "codepoint": 61822,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/twitter-letter-logo.svg"
+    },
+    "twitter-logo": {
+      "codepoint": 61823,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/twitter-logo.svg"
+    },
+    "viddler-logo": {
+      "codepoint": 61824,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/viddler-logo.svg"
+    },
+    "vimeo-logo": {
+      "codepoint": 61825,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/vimeo-logo.svg"
+    },
+    "virb-logo": {
+      "codepoint": 61826,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/virb-logo.svg"
+    },
+    "w3-logo": {
+      "codepoint": 61827,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/w3-logo.svg"
+    },
+    "whatsapp-logo": {
+      "codepoint": 61828,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/whatsapp-logo.svg"
+    },
+    "wikipedia-logo": {
+      "codepoint": 61829,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/wikipedia-logo.svg"
+    },
+    "windows-logo": {
+      "codepoint": 61830,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/windows-logo.svg"
+    },
+    "wists-logo": {
+      "codepoint": 61831,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/wists-logo.svg"
+    },
+    "wordpress-logo": {
+      "codepoint": 61832,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/wordpress-logo.svg"
+    },
+    "wordpress-logo-of-a-letter-in-a-circle": {
+      "codepoint": 61833,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/wordpress-logo-of-a-letter-in-a-circle.svg"
+    },
+    "xing-logo": {
+      "codepoint": 61834,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/xing-logo.svg"
+    },
+    "yahoo-buzz-logo": {
+      "codepoint": 61835,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/yahoo-buzz-logo.svg"
+    },
+    "yahoo-logo": {
+      "codepoint": 61836,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/yahoo-logo.svg"
+    },
+    "yahoo-messenger-smiley-logo": {
+      "codepoint": 61837,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/yahoo-messenger-smiley-logo.svg"
+    },
+    "yelp-logo": {
+      "codepoint": 61838,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/yelp-logo.svg"
+    },
+    "youtube-logo": {
+      "codepoint": 61839,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/youtube-logo.svg"
+    },
+    "youtube-play-button": {
+      "codepoint": 61840,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/youtube-play-button.svg"
+    },
+    "zerply-letter-symbol": {
+      "codepoint": 61841,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/zerply-letter-symbol.svg"
+    },
+    "zootool-logo": {
+      "codepoint": 61842,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/zootool-logo.svg"
+    },
+    "zynga-logotype": {
+      "codepoint": 61843,
+      "source": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg/zynga-logotype.svg"
+    }
+  },
+  "options": {
+    "autowidth": false,
+    "config": false,
+    "css_selector": ".flaticon-{{glyph}}",
+    "debug": false,
+    "font_ascent": 448,
+    "font_descent": 64,
+    "font_design_size": 16,
+    "font_em": 512,
+    "font_name": "Flaticon",
+    "force": true,
+    "input": {
+      "templates": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg",
+      "vectors": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/svg"
+    },
+    "no_hash": true,
+    "output": {
+      "css": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/font",
+      "fonts": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/font",
+      "preview": "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/font"
+    },
+    "preprocessor_path": null,
+    "quiet": true,
+    "templates": [
+      "../../../../../sites/flaticon/libraries/webfont/templates/flaticon.html",
+      "../../../../../sites/flaticon/libraries/webfont/templates/_flaticon.scss",
+      "../../../../../sites/flaticon/libraries/webfont/templates/flaticon.css"
+    ]
+  },
+  "templates": [
+    "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/font/flaticon.html",
+    "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/font/_flaticon.scss",
+    "/var/www/static/flaticon/zip_packs/110971-simpleicon-social-media/font/flaticon.css"
+  ]
+}

@@ -1,23 +1,24 @@
 ---
-layout: page
-title: About
+layout: about
+title: About and contact
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+Source code for this site can be found on [GitHub](https://github.com/HisRoyalRedness/HisRoyalRedness.github.io).
+The theme is based on the [Jekyll new theme](https://github.com/jglovier/jekyll-new).
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+Icons based on source from [Freepik](http://www.freepik.com/)
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+# Contact
 
+<ul>
+  <li><a href="https://github.com/{{ site.github_username }}"><span class="icon icon--github">{% include github-logo.svg %}</span><span class="username">GitHub</span></a></li>
+  <li><a href="https://twitter.com/{{ site.twitter_username }}"><span class="icon icon--twitter">{% include twitter-logo.svg %}</span><span class="username">Twitter</span></a></li>
+  <li><a href="https://www.linkedin.com/in/{{ site.linkedin_username }}"><span class="icon icon--linkedin">{% include linkedin-logo.svg %}</span><span class="username">LinkedIn</span></a></li>
+</ul>
 
-Public keys:
+# Public keys:
 
-* Current key id: {{ site.short_id }} 
 * Finger print: {{ site.fingerprint }}
 * [sks-keyservers.net](https://sks-keyservers.net/pks/lookup?op=get&search=0x{{ site.long_id }}) 
 * [Local](/assets/PublicKeys.txt)

@@ -205,9 +205,25 @@ pre {
         width: 16px;
         height: 16px;
         vertical-align: middle;
-
+        margin-right: 5px;
         path {
             fill: $grey-color;
         }
     }
+}
+
+.logo-img {
+
+    float: right;
+
+    /*> svg {
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }*/
 }
