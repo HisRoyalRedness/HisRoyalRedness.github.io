@@ -20,7 +20,7 @@ In the project file:
 <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 <Target Name="AfterResolveReferences">
   <ItemGroup>
-    <EmbeddedResource S
+    <EmbeddedResource
         Include="@(ReferenceCopyLocalPaths)" 
         Condition="'%(ReferenceCopyLocalPaths.Extension)' == '.dll'">
       <LogicalName>%(ReferenceCopyLocalPaths.DestinationSubDirectory)%(ReferenceCopyLocalPaths.Filename)%(ReferenceCopyLocalPaths.Extension)</LogicalName>
