@@ -8,6 +8,8 @@ thumbnail:  cogs
 tags:       c# compiler
 ---
 
+* TOC
+{:toc}
 
 Add the following to the project file
 
