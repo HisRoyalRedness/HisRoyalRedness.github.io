@@ -9,14 +9,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="25mm"
-   height="25mm"
-   viewBox="0 0 88.582677 88.582677"
+   width="25.09762mm"
+   height="25.198412mm"
+   viewBox="0 0 88.928575 89.285711"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r13725"
    sodipodi:docname="hisroyalredness.svg"
-   inkscape:export-filename="C:\Users\KeithF\Source\Repos\HisRoyalRedness.github.io\image\hrr_square.png"
+   inkscape:export-filename="C:\Users\KeithF\Source\Repos\HisRoyalRedness.github.io\image\hrr_square_back.png"
    inkscape:export-xdpi="304.79999"
    inkscape:export-ydpi="304.79999">
   <defs
@@ -29,8 +29,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="5.6"
-     inkscape:cx="-48.251088"
-     inkscape:cy="25.117434"
+     inkscape:cx="14.675115"
+     inkscape:cy="25.468966"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -51,7 +51,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -59,7 +59,14 @@
      inkscape:label="Layer 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-421.28349,-403.11127)">
+     transform="translate(-421.11053,-402.75977)">
+    <rect
+       style="fill:#fdfdfd;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4150"
+       width="88.928574"
+       height="89.285713"
+       x="421.11053"
+       y="402.75977" />
     <g
        id="g4394"
        transform="translate(21.055971,-0.5572703)">
