@@ -48,7 +48,7 @@ Staging can be used to selectively commit groups of files
 
 
 
-# Branching
+# Branchings
 
 * [Branching](http://nvie.com/posts/a-successful-git-branching-model/)
 
