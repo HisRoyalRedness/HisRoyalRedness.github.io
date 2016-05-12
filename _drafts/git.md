@@ -52,3 +52,13 @@ Staging can be used to selectively commit groups of files
 
 * [Branching](http://nvie.com/posts/a-successful-git-branching-model/)
 
+# Join an existing repository to an existing remote one
+
+* [StackOverflow](http://stackoverflow.com/a/18999726)
+
+```
+git init
+git remote add origin PATH/TO/REPO
+git fetch
+git checkout -t origin/master
+```
