@@ -52,7 +52,7 @@ Staging can be used to selectively commit groups of files
 
 * [Branching](http://nvie.com/posts/a-successful-git-branching-model/)
 
-# Join an existing repository to an existing remote one
+# Join an existing repository to an existing remote
 
 * [StackOverflow](http://stackoverflow.com/a/18999726)
 
