@@ -83,6 +83,27 @@ Retrieve items from a Hash Table by key
 $usa_states.'NY'
 ```
 
+# Pipeline-friendly function
+
+```powershell
+function Some-Function {
+  Param (
+      [parameter(
+          ValueFromPipelineByPropertyName = $true, 
+          ValueFromPipeline = $true)]
+      [int[]]$SomeValue)
+      
+  Process {
+    $SomeValue | % {
+      # Do the stuff here on each value item 
+      "$_ + 2 = $($_ + 2)"
+    }
+  }
+}
+```
+
+![Powershell pipeline-friendly function test](/image/pspipeline.png)
+
 # Miscellaneous
 
 Return the value of a regular expression match
