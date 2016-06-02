@@ -12,9 +12,9 @@ tags:       powershell script
 {:toc}
 
 
-# Signing powershell scripts
+## Signing powershell scripts
 
-##### Extracted from an blog post by [Scott Hanselman][1]
+<small>Extracted from an blog post by [Scott Hanselman][1]</small>
 
 Create a Local Certificate Authority certificate
 
@@ -41,9 +41,9 @@ Set-AuthenticodeSignature c:\foo.ps1 @(Get-ChildItem cert:\CurrentUser\My -codes
 ```
 
 
-# Hash tables
+## Hash tables
 
-##### Content shamelessly stolen from [SS64][2]
+<small>Content shamelessly stolen from [SS64][2]</small>
 
 Initialise the Hash Table
 
@@ -83,7 +83,7 @@ Retrieve items from a Hash Table by key
 $usa_states.'NY'
 ```
 
-# Pipeline-friendly function
+## Pipeline-friendly function
 
 ```powershell
 function Some-Function {
@@ -104,16 +104,27 @@ function Some-Function {
 
 ![Powershell pipeline-friendly function test](/image/pspipeline.png)
 
-# Miscellaneous
+## Miscellaneous
 
-Return the value of a regular expression match
+### Search for a range of files
+
+gci has a ```filter``` (-fi) parameter, but only accepts a single string.
+Sometimes you want to provide a number of filters. You can use ```include``` 
+(-i) to achieve this, but MUST then provide a base path.
+
+```powershell
+get-childitem .\* -r -i *.h, *.hpp, *.c, *.cpp | % { $_ }
+```
+
+
+### Return the value of a regular expression match
 
 ```powershell
 get-content SomeTarget.txt | ([regex]"<pattern_text>").Matches($_) | 
     % { $_.Value }
 ```
 
-Create a custom object from a pipeline
+### Create a custom object from a pipeline
 
 ```powershell
 get-childitem SomeFolder | 
@@ -123,14 +134,13 @@ get-childitem SomeFolder |
     % { new-object psobject -property ([Ordered]@{ Col1 = 1; Col2 = 2 }) }
 ```
 
-Suppress type info from CSV files
+### Suppress type info from CSV files
 
 ```powershell
 $SomeData | export-csv target.csv -NoTypeInformation
 ```
 
-
-Stop on the first error
+### Stop on the first error
 
 ```powershell
 $ErrorActionPreference = "Stop";
