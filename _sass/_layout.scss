@@ -167,6 +167,11 @@
 /**
  * Page content
  */
+.page-search {
+    width: 30%;
+    float: right;
+}
+
 .page-content {
     padding: $spacing-unit 0;
 }

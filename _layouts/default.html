@@ -3,9 +3,26 @@
 
   {% include head.html %}
 
-  <body>
-
+  <body>    
     {% include header.html %}
+
+    <div class="page-search">
+      <div>
+        <script>
+          (function() {
+            var cx = '008454237486002092014:yihcnws_0gg';
+            var gcse = document.createElement('script');
+            gcse.type = 'text/javascript';
+            gcse.async = true;
+            gcse.src = 'https://cse.google.com/cse.js?cx=' + cx;
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(gcse, s);
+          })();
+        </script>
+        <gcse:search linkTarget="_parent"></gcse:search>
+      </div>
+    </div>
+
 
     <div class="page-content">
       <div class="wrapper">
